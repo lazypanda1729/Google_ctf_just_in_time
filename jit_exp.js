@@ -1,4 +1,4 @@
-load('int64.js')
+load('js_helpers.js')
 
 let double_arr;
 let oob;
