@@ -116,6 +116,12 @@ This assumption is incorrect and result in OOB access outside of that array.
 
 Exploitation
 
+Environment info:
+
+Ubuntu 20.04.6
+V8 version 7.2.288
+NOTE: I used a 2018 commit of several month prior the the CTF's date but I think it should work(with some minor changes maybe) on older versions.
+
 Stable primitive
 
 Since the idea is to create a stable primitive, instead of generating OOB with compilation and risking issue such as deopt, the goal is to first create
