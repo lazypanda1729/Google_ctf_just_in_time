@@ -1,6 +1,7 @@
 Google CTF 2018
 
 This is just a POC is just-in-time CTF from Google's CTF 2018.
+https://github.com/google/google-ctf/tree/main/2018/finals/pwn-just-in-time
 
 The bug in the CTF is introduced with the addition of DuplicateAdditionReducer during the Type lowering stage in TurboFan compiler pipeline.
 The DuplicateAdditionReducer adds the following:
